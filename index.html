@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styling.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Mariam's Portfolio</div>
+            <div class="right">
+               
+                    <ul>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/">Skills</a></li>
+                        <li><a href="/">Education</a></li>
+                        <li><a href="/">Contact</a></li>
+                    </ul>
+               
+            </div>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">Hi! My name is <span class="name">Mariam .</span> I have a strong foundation in <span id="element"></span>
+                <div class="links">
+            <ul>
+            <li><a href="https://www.linkedin.com/in/mariam-malik-308698259/">Linkedin</a></li>
+            <li><a href="">Resume</a></li>
+        </ul>
+        </div>
+            </div>
+            <div class="rightsection">
+            <image src="developer2.png"></image>
+            </div>
+        </section>
+        <hr>
+        <section class="secondsection">
+            <h1>Skills</h1>
+
+            <div class="box">
+                <div class="vertical">
+                    <image class="Dsa" src="dsaalogo.png"></image>
+                    <div class="skill1">Data Structures and Algorithm</div>
+                </div>
+                <div class="vertical">
+                    <image class="html" src="htmllogo.jpeg"></image>
+                    <div class="skill1">HTML</div>
+                </div>
+                <div class="vertical">
+                    <image class="css" src="csslogo.jpeg"></image>
+                    <div class="skill1">CSS</div>
+                </div>
+                <div class="vertical">
+                    <image class="js" src="jslogo.jpeg"></image>
+                    <div class="skill1">
+                        JAVASCRIPT
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <hr>
+        <div class="footer-first">Contact</div>
+        <div class="footer">
+        <div class="footer-second">
+            <ul>
+                <li>6005940145</li>
+                <li>mariammalik5100@gmail.com</li>
+            </ul>
+        </div>
+        <div class="footer-third">
+            <ul>
+                <li><a href="https://leetcode.com/u/sandflips/">LeetCode</a></li>
+                <li><a href="https://www.geeksforgeeks.org/user/sandflips43/">GeeksForGeeks</a></li>
+                <li><a href="https://www.naukri.com/code360/profile/234af619-2a4a-40be-925f-ce741fac6e78">CodingNinjas</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="rights">
+        Mariam's Portfolio | All Rights Reserved
+    </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['HTML', 'CSS' ,'JavaScript','Data structures and algorithm.'],
+          typeSpeed:100
+        });
+      </script>
+</body>
+</html>
